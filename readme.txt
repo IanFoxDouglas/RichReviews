@@ -2,9 +2,9 @@
 Contributors: foxytechnology
 Donate link: http://www.foxytechnology.com
 Tags: reviews, review, testimonials, testimonial, hreview, rating, ratings, google, rich snippets, review widget, seo, shortcode, plugin, snippet, snippets
-Requires at least: 3.0.1
+Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,12 +42,27 @@ Visit the <a href="http://www.foxytechnology.com/rich-reviews-wordpress-plugin/"
 
 == Screenshots ==
 
-1. **Reviews Display** - Show some or all of the reviews that you have approved to be shown on your site.
-2. **Review Submission** - A simple review submission form can be placed anywhere on your site, and will not be displayed publically until YOU give it the okay. An admin menu lets you choose which reviews are real and which are spam.
-3. **Google Rich Snippets Enabled** - A simple shortcode allows you to post an aggregate review score on any page, which means that Google will display a star-rating whenever your page comes up in a search.
+1. Show some or all of the reviews that you have approved to be shown on your site.
+2. A simple review submission form can be placed anywhere on your site, and will not be displayed publicly until YOU give it the okay. An admin menu lets you choose which reviews are real and which are spam.
+3. A simple shortcode allows you to post an aggregate review score on any page, which means that Google will display a star-rating whenever your page comes up in a search.
 
 
 == Changelog ==
 
+= 1.1 =
+* Altered CSS to make the reviews and the review form more pretty (Thanks, Andrew!)
+* New, altered CSS allows reviews to properly be displayed and stacked vertically (for example, in a sidebar)
+* Integrated/fixed support for non-English characters (Thanks, IvicaD!)
+* Split menu up into three parts: instructions, pending reviews, and approved reviews
+* New "Approved Reviews" admin menu allows you to view every review you have ever previously approved, and change its status (to pending, or mark it for deletion) at will
+
 = 1.0 =
 * Initial release
+
+== Upgrade Notice ==
+
+= 1.1 =
+This version pretties up the reviews and the form, and fixes the CSS to allow vertical stacking of reviews in, say, a sidebar. Also implements an "approved reviews" menu to view and change the status of previously-approved reviews.
+
+= 1.0 =
+Initial release
